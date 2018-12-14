@@ -29,7 +29,7 @@ class Person{
 	public String getPhone(){return phone;}
     public String getGender(){return gender;}
     public String getStaffNumber(){return staffNumber;}
-	
+    
 	public String toString(){
 		return (name +" " + phone +" "+ gender +" "+ staffNumber);
 	}

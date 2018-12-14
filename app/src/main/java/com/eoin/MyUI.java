@@ -86,7 +86,6 @@ public class MyUI extends UI {
             myGrid.addColumn(Person::getStaffNumber).setCaption("Staff Number");
         });
         
-        
         vlayout.addComponents(name, phone, gender, staffNumber, addButton, clear);        
         layout.addComponents(logo, vlayout , myGrid); 
            
